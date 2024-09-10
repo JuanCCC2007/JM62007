@@ -1,0 +1,51 @@
+.contenedor{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 500px 500px 500px 500px;
+    grid-template-rows: 300px 50px 1000px 50px ;
+    grid-template-areas: 
+    'ba ba ba ba'
+    'li1 li1 li1 li1'
+    'con1 con1 con2 con2'
+    'pie pie pie pie'
+    
+    ;
+}
+.banner{
+    background-color: yellow;
+    grid-area: ba;
+}
+.col1{
+    background-color: rgb(13, 53, 34);
+    grid-area: li1;
+}
+.col2{
+    background-color: rgb(9, 52, 58);
+    grid-area:con1 ;
+}
+.col3{
+    background-color: darkslategrey;
+    grid-area: con2;
+}
+footer{
+    background-color: rgba(36, 9, 58, 0.856);
+    grid-area: pie;
+}
+.banner img{
+    width: 2000px;
+    height: 300px;
+}
+.enlaces a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 6px;
+    
+}
+footer{
+    color: aliceblue;
+    padding-top: 15px;
+}
+.col2 img{
+    width: 450px;
+    height: 1000px;
+}

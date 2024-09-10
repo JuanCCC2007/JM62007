@@ -1,0 +1,43 @@
+.contenedor{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2000px;
+    grid-template-rows: 400px 1500px 50px;
+    grid-template-areas: 
+    'ba'
+    'co1'
+    'footer'
+
+    
+    ;
+}
+.banner{
+    background-color: aquamarine;
+    grid-area: ba;
+}
+.columna1{
+    background-color: rgb(19, 48, 49);
+    grid-area: co1;
+}
+footer{
+    background-color: rgb(20, 39, 44);
+    grid-area: footer;
+    color: aliceblue;
+}
+.banner img{
+    width: 2000px;
+    height: 400px;
+}
+.enlaces a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 6px;
+}
+td,img{
+    height: 250px;
+    width: 350px;
+}
+table{
+    margin: auto;
+    padding: 10px;
+}
